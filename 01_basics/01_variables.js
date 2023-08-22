@@ -1,3 +1,5 @@
+// Documentation to refer are tc39.es and mdn 
+
 const accountId = 144553
 let accountEmail = "hitesh@google.com"
 var accountPassword = "12345"
