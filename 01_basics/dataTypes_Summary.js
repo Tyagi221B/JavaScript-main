@@ -1,6 +1,8 @@
-//  Primitive
+// kis basis par data ko memory me rakha jata hai us basis par data ke 2 types hai Primitive and non primitive 
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  Primitive
+// call by value 
+//  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -35,3 +37,9 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// stack (primitive ) , Heap (non - primitive )
+
+// ..............
