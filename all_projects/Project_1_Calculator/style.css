@@ -1,0 +1,40 @@
+.container::before{
+    background: url("bg--1.png") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: orange;
+    border-radius: 300px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.4rem;
+    width: 70px;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    margin: 0;
+    padding: 6px 38px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+#zero{
+    width: 150px;
+    
+}
+#zero1{
+    width: 150px;
+    
+}
