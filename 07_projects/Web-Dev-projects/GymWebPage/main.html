@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyagi Gym</title>
+
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+    /* CSS Reset */
+    .header::before{
+        background: url("images/background_1.jpg") no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index:-1;
+        opacity: 0.8;
+
+
+
+
+    }
+    body {
+        margin: 0px;
+        padding: 0px;        
+        color: white;
+        /* background-color: black; */
+        font-family: 'Alkatra', cursive;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid rgb(231, 227, 227); */
+        position: absolute;
+        left: 34px;
+        top: -10px;
+    }
+
+    .left img {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 0px;
+        font-size: 26px;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(228, 236, 228); */
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(224, 224, 217); */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: hsl(30, 4%, 78%);
+        
+    }
+
+    .button {
+        padding: 6px;
+        margin: 0px 10px;
+        border-color: rgb(212, 207, 218);
+        border-radius: 10px;
+        width: 107px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Alkatra', cursive;
+    }
+
+    .button:hover {
+        background-color: rgb(31, 30, 43);
+
+    }
+
+    .container {
+        border: 2px solid rgb(242, 245, 238);
+        padding: 29px;
+        width: 500px;
+        margin: 216px 150px;
+        border-radius: 10px;
+        border-style: dotted;
+    }
+
+    .formgroup input {
+        margin: 3px;
+        padding: 11px;
+        width: 251px;
+        border-radius: 11px;
+        text-align: center;
+    }
+    .backgroundImage{
+        z-index: -1;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+
+    }
+</style>
+
+<body>
+   
+
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="images/logo.png" alt="">
+            <div>Tyagi Gym</div>
+        </div>
+
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="button">Search</button>
+            <button class="button">E-mail Us</button>
+        </div>
+    </header>
+
+    
+    <div class="container">
+        <h1>Join the best gym of Roorkee now !</h1>
+        <form action="noaction.php">
+            <div class="formgroup"><input type="text" placeholder="Enter Your Name"></div>
+            <div class="formgroup"><input type="text" placeholder="Enter Your E-mail"></div>
+            <div class="formgroup"><input type="text" placeholder="Phone number"></div>
+            <Button type = "submit" class="button">Submit</Button>
+            <button type = "reset" class="button">Reset</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
