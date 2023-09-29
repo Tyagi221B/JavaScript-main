@@ -72,7 +72,7 @@ html {
     box-sizing: border-box;
     text-align: center;
     width: 450px;
-    height: 550px;
+    height: 700px;
     background-color: #474747;
     color: #fff;
     font-size: 25px;
@@ -90,3 +90,11 @@ html {
     text-align: center;
   }
   
+  #newGame{
+    border: 2px solid #eecbcb;
+  }
+  #newGame:hover{
+    cursor: pointer;
+    background-color: #212121;
+    color: brown;
+  }
