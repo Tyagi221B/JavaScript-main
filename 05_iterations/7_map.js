@@ -8,3 +8,5 @@ const newNums = myNumers
                 .filter( (num) => num >= 40)
 
 console.log(newNums);
+
+

@@ -7,7 +7,7 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()     //[   ---> sayNyName <---- this is function reference and sayMyName <---- this is function execution ]
+// sayMyName()     //[   ---> sayNyName <---- this is function reference and sayMyName() <---- this is function execution ]
 
 // function addTwoNumbers(number1, number2){
 

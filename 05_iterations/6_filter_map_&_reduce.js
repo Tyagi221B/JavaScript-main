@@ -1,18 +1,33 @@
-// const coding = ["js", "ruby", "java", "python", "cpp"]
-
+// ---------------------------------------------------------------------------------
+const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // const values = coding.forEach( (item) => {
-//     //console.log(item);
+//     console.log(item);
 //     return item
 // } )
-
 // console.log(values);
 
+// the forEach() method doesn't generate a new array or return the processed values. It's a method used for side effects, such as logging, mutating variables, etc., and doesn't produce a return value that can be assigned to another variable.
+// ---------------------------------------------------------------------------------
+
+//use map instead
+// const values = coding.map( (item) => {
+//   console.log(item);
+//   return item
+// } )
+// console.log(values);
+
+// ---------------------------------------------------------------------------------
+
+
+// ---------------------------------------------------------------------------------
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
+// console.log(newNums);
+// ---------------------------------------------------------------------------------
 
 // const newNums = []
 
@@ -23,6 +38,10 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // } )
 
 // console.log(newNums);
+
+
+// ---------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
 
 
 const books = [
@@ -38,8 +57,12 @@ const books = [
   ];
 
   let userBooks = books.filter( (bk) => bk.genre === 'History')
-
-  userBooks = books.filter( (bk) => { 
-    return bk.publish >= 1995 && bk.genre === "History"
-})
+// ---------------------------------------------------------------------------------
+//this will overwrite the userbooks
+//   userBooks = books.filter( (bk) => { 
+//     return bk.publish >= 1950 && bk.genre === "Non-Fiction"
+// })
   console.log(userBooks);
+
+// ---------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------

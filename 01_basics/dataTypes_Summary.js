@@ -12,9 +12,9 @@ const outsideTemp = null
 let userEmail;
 
 const id = Symbol('123')
-const anotherId = Symbol('123')
+const anotherId = Symbol('123') // Symbols are unique , each time a new symbol is created though the decription is same
 
-console.log(id === anotherId);
+console.log(id === anotherId); 
 
 // const bigNumber = 3456543576654356754n
 

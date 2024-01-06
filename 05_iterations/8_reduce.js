@@ -1,3 +1,6 @@
+// ---------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+
 const myNums = [1, 2, 3]
 
 // const myTotal = myNums.reduce(function (acc, currval) {
@@ -5,10 +8,21 @@ const myNums = [1, 2, 3]
 //     return acc + currval
 // }, 0)
 
+// The reduce() function takes two parameters:
+// The first parameter is a callback function that is executed on each element of the array.
+// The second parameter is the initial value for the accumulator, in this case, 0
+
+// The reduce() method in JavaScript is used to iterate over an array and accumulate a single result by applying a provided function to each element of the array, resulting in a single output value. It condenses or "reduces" the array to a single value.
+// ---------------------------------------------------------------------------------
+
 const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 
-console.log(myTotal);
+// console.log(myTotal);
 
+
+
+// ---------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
 
 const shoppingCart = [
     {
